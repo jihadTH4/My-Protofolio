@@ -204,3 +204,72 @@ footer .links img {
 footer .links .github {
     height: 30px;
 }
+/* Media quaries */
+
+@media screen and (max-width: 917px) {
+    header div a {
+        font-size: 1em;
+        margin-right: 12px;
+    }
+    .skills .card {
+        margin: 50px auto;
+    }
+    footer {
+        position: absolute;
+        bottom: -1000px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 675px) {
+    header div a {
+        font-size: 0.8em;
+        margin-right: 8px;
+    }
+    footer {
+        position: absolute;
+        bottom: -1600px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 596px) {
+    body {
+        font-size: 0.6em;
+    }
+    header {
+        overflow: hidden;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    header div {
+        padding: 10px;
+    }
+    header div a {
+        font-size: 0.8em;
+        margin-right: 4px;
+    }
+    .About {
+        height: 800px;
+        padding: 100px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    footer {
+        position: absolute;
+        bottom: -1800px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+}
